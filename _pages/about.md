@@ -8,18 +8,16 @@ redirect_from:
 ---
 <section id="home" class="home-intro">
 <h1>Biomedical AI for clinical time series</h1>
-<p>I study machine learning for healthcare, with a focus on self-supervised representation learning and adapting ECG foundation models when labeled data are scarce.</p>
+<p>I am a PhD student in Computer Science and Computational Mathematics at the Institute of Mathematical and Computer Sciences, University of São Paulo (ICMC-USP), advised by Diego Furtado Silva. My research focuses on machine learning for time series, particularly self-supervised representation learning and the adaptation of foundation models for electrocardiogram (ECG) analysis when labeled data are scarce.</p>
+<p>I hold an MSc in Computer Science from the Federal University of São Carlos (UFSCar) and a bachelor's degree in Computer Science from the Federal University of Tocantins (UFT). My earlier research investigated time-series alignment and partial automation of seismic-to-well ties.</p>
 </section>
 <section id="research">
 <h2>Research Interests</h2>
 <ul class="research-labels"><li><i class="fa-solid fa-heart-pulse" aria-hidden="true"></i> Clinical Machine Learning</li><li><i class="fa-solid fa-layer-group" aria-hidden="true"></i> ECG Modeling</li><li><i class="fa-solid fa-diagram-project" aria-hidden="true"></i> Representation Learning</li><li><i class="fa-solid fa-microchip" aria-hidden="true"></i> Foundation Models</li></ul>
-<details><summary>Research background</summary>
-<p>I am a PhD student in Computer Science and Computational Mathematics at the Institute of Mathematical and Computer Sciences, University of São Paulo (ICMC-USP), advised by Diego Furtado Silva. My research focuses on machine learning for time series, particularly self-supervised representation learning and the adaptation of foundation models for electrocardiogram (ECG) analysis when labeled data are scarce.</p>
-<p>I hold an MSc in Computer Science from the Federal University of São Carlos (UFSCar) and a bachelor's degree in Computer Science from the Federal University of Tocantins (UFT). My earlier research investigated time-series alignment and partial automation of seismic-to-well ties.</p>
 <h3>Research topics</h3>
 <ul><li>Self-supervised representation learning for physiological time series</li><li>ECG foundation models and learning with limited labeled data</li><li>Multivariate time-series classification and multimodal learning</li><li>Time-series similarity, alignment, and Dynamic Time Warping</li></ul>
 <a href="{{ '/research/' | relative_url }}">More about my research →</a>
-</details>
+
 </section>
 <section id="publications">
 <div class="section-heading"><h2>Selected Publications</h2><a href="{{ '/publications/' | relative_url }}">View all publications →</a></div>
