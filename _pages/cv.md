@@ -36,7 +36,7 @@ For my full academic record, see my [Lattes CV]({{ site.author.lattes }}). This 
 
 ## Publications
 
-[View publications and other research outputs]({{ '/publications/' | relative_url }}) · [Google Scholar]({{ site.author.googlescholar }})
+[View selected publications]({{ '/#publications' | relative_url }}) · [Google Scholar]({{ site.author.googlescholar }})
 
 ## Academic profiles
 

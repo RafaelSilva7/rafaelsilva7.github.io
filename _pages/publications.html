@@ -1,17 +1,7 @@
 ---
-layout: archive
+layout: single
 title: "Publications"
 permalink: /publications/
-author_profile: true
+redirect_to: /#publications
+sitemap: false
 ---
-
-<p>Articles, conference papers, preprints, and other research outputs. Publication types are labeled below; years follow the published version where verified. See also <a href="{{ site.author.googlescholar }}">Google Scholar</a>.</p>
-
-{% assign publications_by_year = site.publications | group_by: "year" | sort: "name" | reverse %}
-{% for year_group in publications_by_year %}
-  <h2>{{ year_group.name }}</h2>
-  {% assign year_publications = year_group.items | sort: "title" %}
-  {% for publication in year_publications %}
-    {% include publication-entry.html publication=publication %}
-  {% endfor %}
-{% endfor %}

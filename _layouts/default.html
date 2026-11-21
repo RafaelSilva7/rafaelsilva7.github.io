@@ -25,12 +25,12 @@ layout: compress
 <li><a href="https://github.com/{{ site.author.github }}"><i class="fa-brands fa-github" aria-hidden="true"></i>GitHub</a></li>
 <li><a href="{{ site.author.lattes }}"><i class="fa-regular fa-file-lines" aria-hidden="true"></i>Lattes CV</a></li>
 </ul>
-<div class="sidebar-interests"><h3>Research Interests</h3><ul><li>Clinical Machine Learning</li><li>ECG Modeling</li><li>Representation Learning</li><li>Foundation Models</li><li>Time-Series Alignment</li></ul></div>
+<div class="sidebar-interests"><h3>Research Interests</h3><ul><li>Clinical Machine Learning</li><li>Time Series</li><li>Representation Learning</li><li>Foundation Models</li><li>Time-Series Alignment</li></ul></div>
 </aside>
 <div class="home-main">
 <nav class="home-nav" aria-label="Primary navigation">{% for link in site.data.navigation.main %}<a href="{{ link.url | relative_url }}"{% if page.url == '/' and forloop.first %} aria-current="location"{% endif %}>{{ link.title }}</a>{% endfor %}</nav>
 <main id="main-content" tabindex="-1">{{ content }}</main>
-<footer class="home-footer">© {{ site.time | date: '%Y' }} {{ site.author.name }} · Powered by <a href="https://academicpages.github.io/">Academic Pages</a></footer>
+<footer class="home-footer">© {{ site.time | date: '%Y' }} {{ site.author.name }} · Powered by <a href="https://academicpages.github.io/">Academic Pages</a> · Last update: 2026/06/23</footer>
 </div>
 {% if page.url == '/' %}<script src="{{ '/assets/js/academic-home.js' | relative_url }}" defer></script>{% endif %}
 </body></html>
